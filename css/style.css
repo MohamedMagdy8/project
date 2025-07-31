@@ -1,0 +1,686 @@
+body{
+margin: 0;
+padding: 0;
+height: 100vhpx;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+box-sizing: border-box;
+}
+.background{
+    background-image: url(../images/soccer-field-spotlight-background-stadium_46250-1363.jpg);
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    background-color: rgba(0, 0, 0, 1);
+    position: relative;
+}
+.header{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(0, 0, 0);
+    position: fixed;
+    z-index: 10;
+}
+.img1{
+    height: 100%;
+     float: left;
+     border-radius: 25px;
+     margin-left: 30px;    
+}
+li{
+    list-style-type: none;
+    margin-left:600px;
+    font-size: 15px;
+}
+.header li a:hover{
+  background-color: rgba(255, 253, 253, 0.4);
+  padding: 5px;
+}
+li a{
+    text-decoration: none;
+    margin: 0 8px;
+   color: rgb(255, 255, 255);
+}
+.div1{
+    
+    position: absolute;
+    text-align: center;
+    margin-left: 21%;
+}
+h1{
+    color: #fff;
+    font-size: 65px;
+    text-transform: capitalize;
+    margin-top: 200px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    user-select: none; 
+    z-index: 2;
+    text-shadow: 8px 2px 10px rgb(17, 0, 255);
+}
+.p1{
+    text-transform: capitalize;
+    font-size: 25px ;
+    color: #fff;
+    text-shadow: 5px 2px 10px rgb(251, 255, 0);
+}
+#btn1 , #btn2{
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 20px ; 
+}
+#btn1{
+    border:0px solid black;
+    background-color: blue;
+    margin: 0 5px;    
+}
+#btn1:hover{
+    background-color: rgb(0, 0, 255,0.5);
+}
+#btn2{
+    background-color: white;
+    border:0px solid black;
+}
+#btn2:hover{
+    background-color: rgba(255, 255, 255, 0.6);
+}
+.overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+}
+/* ----------------------------------------------------sec1------------------------------------------ */
+.welcome{
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+    position: relative;
+    display: flex;  
+}
+.h2{
+    position:absolute;
+    margin: 9% 0px 0px 50% ;
+    transform: translate(-50%,-50%);
+    font-size: 40px;
+    user-select: none;
+    font-family: 'Courier New', Courier, monospace;
+}
+.div21 , .div22 , .div23{
+  margin-top: 15%;
+  border: 1px solid black;
+  box-shadow: 3px 2px 15px rgb(0, 225, 255) ;
+  height: 200px;
+  width: 300px;
+  text-align: center;
+  margin-left: 90px;
+  box-sizing: border-box;
+  position: relative;
+  padding: 8px ;
+}
+.welcome i{
+    color: rgb(0, 204, 255);
+    font-size: 25px;
+}
+.welcome p{
+    color: gray;
+}
+.welcome a{
+    text-decoration: none;
+    color: blue;
+}
+.div21{
+    margin-left: 12%;
+}
+.a1{
+    color: rgb(255, 71, 200);
+}
+.a2{
+    color: rgb(7, 128, 7);
+}
+.a3{
+    color: rgb(174, 0, 255);
+}
+.a4{
+    color: brown;
+}
+.a5{
+    color: rgb(0, 195, 255);
+}
+.a6{
+    color: rgb(255, 0, 0);
+}
+.a7{
+    color: rgb(255, 217, 0);
+}
+/* -------------------------------------------------------------sec2-------------------------------------------------- */
+.sec3{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    text-align: center;
+    background: rgb(235, 231, 231);
+}
+.sec3 img{
+    width: 15%;
+    height: 30%;
+    border: 1px solid gray;
+    background-color: #fa0303;
+    margin: 0 5px;
+    border-radius: 5px;
+}
+h3{
+    text-shadow: 2px 2px 1px #FFD700 ;
+    font-size: 30px;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    padding: 40px;
+}
+/* -------------------------------------------------------------sec3-------------------------------------------------- */
+.sec4{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    text-align: center;
+    background: linear-gradient(135deg, #fbc2eb, #a6c1ee);
+}
+.div41 , .div42 , .div43 {
+    border: 2px solid gray;
+    height: 200px;
+    width: 350px;
+    box-sizing: border-box;
+    float: left;
+    margin: 50px 0 0 70px;
+}
+.sec4 .h4{
+    padding-top: 60px;
+}
+.sec4 p{
+    color: rgb(158, 155, 155);
+    font-size: smaller;
+    text-shadow: 1px 1px 0px rgb(148, 63, 63);
+}
+.sec4 img{
+  margin: 10px 0px 0px 0px;
+  width: 30px;
+  height: 30px;
+}
+.sec4 div h4{
+ margin: 5px 0px 50px 10px;
+ transition: color 0.3s;
+ user-select: none;
+}
+/* -------------------------------------------------------------sec4-------------------------------------------------- */
+.sec5{
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(239, 238, 238);
+  float: left; 
+  position: relative; 
+  box-sizing: border-box;
+}
+.sec5 h2{
+  position: absolute;
+  margin: 10% 0px 0px 18% ;
+  transform: translate(-50%,-20%);
+  font-size: 40px;
+  font-family: "Open Sans", sans-serif;
+  user-select: none;
+  color: rgb(224, 66, 153);
+  text-shadow: 5px 5px 20px  rgb(98, 214, 98);
+  border-radius: 25px;
+  box-shadow: 2px 2px 2px 1px  gold;
+  padding: 10px;
+}
+.sec5 .p1{
+  position: absolute;
+  margin: 16% 0px 0px 27% ;
+  transform: translate(-50%,-50%);
+  font-size: 19px;
+  user-select: none;
+  font-family: "Open Sans", sans-serif;
+  color: rgb(158, 155, 155) ;
+  text-shadow: none;
+  text-transform: lowercase;
+}
+.sec5 .p2{
+  position: absolute;
+  margin: 18% 0px 0px 22% ;
+  transform: translate(-50%,-50%);
+  font-size: 19px;
+  user-select: none;
+  font-family: "Open Sans", sans-serif;
+  color: rgb(158, 155, 155) ;
+}
+.sec5 img{
+    margin: 200px 0px 0px 900px;
+    display: inline-block;
+}
+.sec5 li{
+   width: 390px; 
+   height: 50px;
+   box-sizing: border-box;
+}
+.sec5 ul{
+    margin: -200px 0px 0px -500px;
+}
+.sec5 .checkmark{
+    font-size: 20px;
+    font-weight: 900;
+    color: green;
+    border: 0.5px solid red;
+    padding:2px 5px;
+    border-radius: 50%;
+}
+/* -------------------------------------------------------------sec5-------------------------------------------------- */
+.sec6{
+    background-image: url(../images/R\ \(2\).jpeg);
+    width: 100vw;
+    height: 35vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: "Open Sans", sans-serif ;
+}
+.sec6 i{
+    color:rgb(5, 115, 250) ;
+    font-size: 30px;
+    margin-top: 20%;
+    position: relative;
+    z-index: 2;
+}
+.div61 , .div62 , .div63 , .div64{
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    height: 100%;
+    width: 25%;
+}
+.sec6 .p61{
+  font-size:25px;
+  font-weight: bold;
+  margin:5px 0px 0px 0px ;
+  position: relative;
+  z-index: 2;
+  text-shadow: 1px 2px 5px rgb(0, 89, 255);
+}
+.sec6 .p611{
+  font-size:15px;
+  font-weight: bolder;
+  margin:-2px 0px 0px 20px ;
+  position: relative;
+  z-index: 2;
+  text-shadow: 1px 2px 10px rgb(165, 63, 139);
+}
+.sec6::after{
+  content:"";
+  width: 100vw;
+  height: 35vh;
+  background-color:black;
+  opacity: 0.7;
+  position: absolute;
+ }
+ /* -------------------------------------------------------------sec6-------------------------------------------------- */
+.sec7{
+    width: 100vw;
+    height: 100vh;   
+}
+.sec7 .h7{
+  text-align: center;
+  margin-top: 50px;
+  font-size: 30px;
+  font-family: "Open Sans", sans-serif;
+  user-select: none;
+  font-weight: lighter;
+  
+}
+.itemdiv71,.itemdiv72,.itemdiv73{
+    border: 1px solid gray;
+    width: 20vw;
+    height: 47%;
+    float: left;
+    margin: 20px 0px 0px 20px;
+    text-align: center;
+    padding: 10px 10px;
+    box-shadow: 3px -3px 6px rgb(174, 50, 205);
+}
+.sec7 .container7{
+    margin-left: 15%;
+    box-shadow: 5px 3px 5px red;
+}
+.sec7 .div7{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 1px solid rgba(5, 115, 250, 0.715);
+  padding: 1px ;
+  margin: auto;
+  font-family:"Open Sans", sans-serif ;
+}
+.sec7 button{
+   border: 2px solid rgba(5, 115, 250, 0.715);
+   background-color: #fff;
+}
+.sec7 .p7{
+    color: gray;
+    font-size: 13px;
+}
+.sec7 h2{
+  color: grey;
+  font-family: "Open Sans", sans-serif;
+  font-size: 19px;
+  margin-top: 30px;
+}
+.sec7 .price{
+    font-weight: bold;
+    font-size: 21px;
+    margin-top: 20px;
+}
+.sec7 .mounth{
+  font-size: 18px;
+  margin-top: -15px;
+  font-weight: bolder;
+}
+ /* -------------------------------------------------------------sec7-------------------------------------------------- */
+.sec8{
+    width: 100vw;
+    height: 250px;
+    background-image: url(../images/soccer-ball-football-with-futuristic-blue-glowing-neon-lights-dark-background-wide-image-3d-rendering_167862-7397.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    float: left;
+}
+.sec8 img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 20px -60px 0px 60px;
+    position: relative;
+    z-index: 2;
+    box-shadow: 1px -2px 9px red;
+}
+.div8{
+    text-align: center;
+    margin-left: -200px;
+    margin-top: 30px;
+}
+.sec8::after{
+    position:absolute;
+    content:"";
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.3;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.p11{
+    margin: -70px 100px 0px 30%;
+    color: #ffffff;
+    font-family:"Open Sans", sans-serif ;
+    position: relative;
+    z-index: 2;
+    font-weight: bold;
+    text-shadow: 1px 2px 9px rgb(226, 43, 150);
+}
+.p22{
+    margin: 0px 100px 0px 30%;
+    color: #0a22fa;
+    font-family:"Open Sans", sans-serif ;
+    position: relative;
+    z-index: 2;
+    font-weight: bold;
+    text-shadow: 1px 2px 9px rgba(240, 240, 240, 0.397);
+}
+.p33{
+    margin: 50px 0px 0px 30%;
+    color: #ffffff;
+    font-family:"Open Sans", sans-serif ;
+    position: relative;
+    z-index: 2;
+    font-weight: bold;
+    text-shadow: 2px 3px 8px blueviolet;
+}
+ /* -------------------------------------------------------------sec8-------------------------------------------------- */
+.h99{
+margin: 25% 0px 25px 42%;
+font-size: 39px;
+text-transform: capitalize;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.team-container{
+    width: 80%; 
+    margin: auto;
+}
+.team-parent {
+    overflow: auto;
+}
+.team-item {
+    float: left;
+    width: 30%;
+    background-color: rgb(177, 177, 177);
+    text-align: center;
+    padding: 20px 0px ;
+    position: relative;
+    overflow: hidden;
+}
+.team-img img{
+    border-radius: 10px;
+    box-shadow: -2px 3px 5px rgba(253, 2, 2, 0.966);
+    width: 100%;
+}
+.tt{
+    margin: 0 5%;
+}
+.team-img {
+    width: 85%;
+    margin: auto;
+    position: relative;
+}
+.team-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7) ;
+    visibility: hidden;
+}
+.team-item:hover   .team-overlay  {
+    visibility: visible;
+}
+.team-overlay  a {
+    display: block;
+    width: 40px;
+    height: 40px;
+    background-color: rgb(0, 183, 255);
+    color: #fff;
+    margin-left: auto ;
+}
+.team-overlay  a  i {
+    line-height: 40px;
+}
+.team-info-title {
+    color: #222;
+    padding: 11px  0px ;
+    text-transform: capitalize;
+}
+.team-info-p {
+   color: grey;
+   text-transform: uppercase;
+   font-size: 14px;
+}
+.team-item:hover  .team-info-title {
+   color: #fff;
+}
+.team-item:hover  .team-info-p  {
+    color: blue;
+}
+.team-item::after{
+ position: absolute;
+ content: "";
+ width: 100%;
+ height: 0;
+ top: 0;
+ left: 0;
+ opacity: 0;
+ transition: 2s;
+ background-color: black;
+}
+.team-item:hover::after{
+  width: 100%;
+  height:100%;
+  opacity: 0.6;
+ }
+ /* -------------------------------------------------------------sec9-------------------------------------------------- */
+.div9{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    box-sizing: border-box;
+    font-size: 15;
+    font-family: "Open Sans", sans-serif;
+}
+.div9 h2{
+  position: absolute;
+  margin: 150px 0px 0px 50% ;
+  transform: translate(-60%,-50%);
+  font-size: 40px;
+  font-family: "Open Sans", sans-serif;
+  user-select: none;
+}
+.parent9{
+  position: absolute;
+  width: 90%;
+  height: 450px;
+  background-color: rgb(255, 255, 255);
+  margin:15% 0px 0px 50px ;
+  box-shadow: 5px 2px 3px rgba(101, 170, 254, 0.715);
+}
+.parent9 img{
+  position: relative;
+  width:60% ;
+  height:50% ;
+  margin: 15px 0px 0px 30px;
+  z-index: 2;
+}
+.div9 span{
+    font-size: 14px; 
+    margin: 0px 3px;
+}
+.div9 i{
+    color: rgb(0, 153, 255);
+    font-size: 12px; 
+}
+.div9 a{
+    text-decoration: none;
+        color: blue;
+    }
+#p1{
+    font-weight: bold;
+    font-size: 13px;
+}
+#p2{
+    color: gray;
+}
+.news1{
+  position: absolute;
+  width: 30%;
+  height: 100%;
+  background-color: #fff;
+}
+.news2{
+  position: absolute;
+  width: 30%;
+  height: 100%;
+  margin-left: 450px;
+  background-color: #fff;
+}
+.news3{
+  position: absolute;
+  width: 28%;
+  height: 100%;
+  margin-left:900px ;
+  background-color: #fff;
+}
+.parent9 #comment{
+  font-size: 13px;
+  color:rgba(250, 5, 5, 0.715) ;
+  margin: 10px 0px 0px 15px;
+}
+.parent9 #clock{
+  font-size: 12px;
+  color:rgba(5, 21, 250, 0.715) ;
+  margin: 10px 0px 0px 15px;
+}
+.parent9 #user{
+  font-size:12px;
+  color:rgba(250, 5, 156, 0.715) ;
+  margin: 10px 0px 0px 15px;
+}
+.news1:after,.news2:after,.news3:after{
+   position: absolute;
+   content: "";
+   width: 100%;
+   height: 0;
+   top: 0;
+   left: 0;
+   opacity: 0;
+   transition: 0.5s;
+   background-color:rgba(101, 170, 254, 0.715);
+}
+.news1:hover::after,.news2:hover::after,.news3:hover::after{
+    opacity: 0.5;
+    width: 100%;
+    height: 100%;
+}
+/* -------------------------------------------------------------sec9-------------------------------------------------- */
+#footer{
+    width: 100vw;
+    height: 60vh;
+    background-color: rgba(128, 128, 128, 0.486);
+    text-align: center;
+}
+#footer img{
+    margin-top: 100px;
+}
+#icons i{
+    font-size: 40px;
+    color: rgb(58, 132, 241);
+}
+#icons i:hover{
+    font-size: 60px;
+    padding: 10px ;
+}
+#icons #facebook:hover{
+    color: #0c1fce;
+}
+#icons #twitter:hover{
+    color: #0ca1ce;
+}
+#icons #youtube:hover{
+    color: rgb(252, 24, 24);
+}
+#icons #linkedin:hover{
+    color: #120461c2;
+}
+#icons #instagram:hover{
+    color: #e60f93;
+}
+#icons #google:hover{
+    color: #0a972dc7;
+}
+#footer p{
+    color: #c60adfb9;
+}
+#footer strong{
+    color: rgb(255, 0, 128);
+    font-weight: bold;
+}
